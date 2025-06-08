@@ -1,5 +1,9 @@
 # Debugprobe
 
+**It is a fork version to support [StepProbe(12指神探)](https://www.eetree.cn/project/detail/748) **
+
+adapter board: [StepProbe（12指神探）DAP接口适配板 - 立创开源硬件平台](https://oshwhub.com/baobaoa/stepprobetojtag)
+
 Firmware source for the Raspberry Pi Debug Probe SWD/UART accessory. Can also be run on a Raspberry Pi Pico.
 
 [Raspberry Pi Debug Probe product page](https://www.raspberrypi.com/products/debug-probe/)

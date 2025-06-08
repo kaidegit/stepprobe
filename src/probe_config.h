@@ -67,6 +67,8 @@ do { \
 
 #ifdef DEBUG_ON_PICO 
 #include "board_pico_config.h"
+#elifdef  BOARD_STEP_PROBE
+#include "board_step_probe_config.h"
 #else
 #include "board_debug_probe_config.h"
 #endif

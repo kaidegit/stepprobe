@@ -67,6 +67,9 @@ if (DEBUG_ON_PICO)
     endif ()
 endif ()
 
+target_compile_definitions (debugprobe PRIVATE
+        BOARD_STEP_PROBE=1
+)
 
 target_link_libraries(debugprobe PRIVATE
         pico_multicore
